@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./components/input.scss";
 
 @layer base {
   body {
@@ -10,6 +11,6 @@
 
 .container {
   max-width: 396px;
-  margin: 0 auto;
-  padding: 0 16px;
+  margin: 10px auto;
 }
+
