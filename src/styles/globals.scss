@@ -7,10 +7,18 @@
   body {
     @apply font-normal text-ravi-text-black25;
   }
+  input {
+    font-family: inherit;
+  }
+  button {
+    font-family: inherit;
+  }
 }
 
 .container {
   max-width: 396px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
+@import "./components/tab.scss";
+@import "./components/toggle.scss";

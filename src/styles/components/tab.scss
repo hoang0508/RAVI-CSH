@@ -1,0 +1,35 @@
+.tab-custom {
+  .ant-tabs-nav-wrap {
+    .ant-tabs-nav-list {
+      .ant-tabs-tab-btn {
+        &:active {
+          @apply text-ravi-bg-primary;
+        }
+      }
+      .ant-tabs-tab-active {
+        .ant-tabs-tab-btn {
+          &:active {
+            @apply text-ravi-bg-primary;
+          }
+          @apply text-ravi-bg-primary;
+        }
+      }
+      .ant-tabs-tab {
+        @apply text-ravi-text-black25 text-sm font-normal;
+      }
+      .ant-tabs-ink-bar {
+        @apply bg-ravi-bg-primary rounded-tl-full rounded-tr-full;
+      }
+    }
+  }
+}
+
+.tab-history--book {
+  .ant-tabs-nav-wrap {
+    @apply ml-8;
+  }
+}
+
+:where(.css-dev-only-do-not-override-1fviqcj).ant-tabs {
+  font-family: inherit;
+}
