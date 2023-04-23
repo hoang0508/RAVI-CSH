@@ -1,0 +1,21 @@
+.switch {
+  @apply relative cursor-pointer w-[52px] h-8 block mx-auto overflow-hidden bg-ravi-bg-EFE0CF border  border-ravi-border-817567 rounded-full duration-300 ease-linear;
+}
+
+.switch:after {
+  content: "";
+  @apply absolute w-4 h-4  rounded-full bg-ravi-bg-817567 top-2 left-2;
+  transition: background-color 0.25s linear, transform 0.25s linear;
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-input:checked + .switch {
+  @apply bg-ravi-bg-primary;
+}
+
+.switch-input:checked + .switch:after {
+  @apply w-6 h-6 translate-x-[20px] bg-white top-[3px] left-[3px];
+}
