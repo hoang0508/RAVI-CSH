@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-        "./app/**/*.{js,ts,jsx,tsx,mdx}",
-        "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -19,7 +20,7 @@ module.exports = {
         "ravi-bg-ba": "#BABABA",
         "ravi-bg-f0f0f0": "#f0f0f0",
         "ravi-bg-FFDDB0": "#FFDDB0",
-        "ravi-bg-EAE1D9": " #EAE1D9",
+        "ravi-bg-EAE1D9": "#EAE1D9",
         "ravi-bg-D2EABD": "#D2EABD",
         "ravi-bg-FFF8F3": "#FFF8F3",
         "ravi-bg-BA1A1A": "#BA1A1A",
@@ -49,5 +50,6 @@ module.exports = {
         shadownNoti: ` 0px 1px 2px rgba(0,0,0,0.3), 0px 1px 3px 1px rgba(0,0,0,0.15)`,
       },
     },
-    plugins: [],
+  },
+  plugins: [],
 };

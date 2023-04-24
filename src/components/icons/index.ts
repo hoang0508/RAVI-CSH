@@ -5,7 +5,6 @@ import IconClockLoader from "./IconClockLoader";
 import IconFavorite from "./IconFavorite";
 import IconGroup from "./IconGroup";
 import IconHeart from "./IconHeart";
-import IconLineVoucher from "./IconLineVoucher";
 import IconLocation from "./IconLocation";
 import IconPerson from "./IconPerson";
 import IconWarning from "./IconWarning";
@@ -39,14 +38,14 @@ export {
   IconClendarV1History,
   IconUsersHistory,
   IconModal,
-  IconFavorite, 
-  IconHeart, 
-  IconLocation, 
-  IconArrowRight, 
-  IconGroup, 
-  IconPerson, 
-  IconWarning, 
-  IconClockLoader, 
-  IconCheckCircle, 
-  IconCancel
+  IconFavorite,
+  IconHeart,
+  IconLocation,
+  IconArrowRight,
+  IconGroup,
+  IconPerson,
+  IconWarning,
+  IconClockLoader,
+  IconCheckCircle,
+  IconCancel,
 };
